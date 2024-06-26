@@ -1,3 +1,4 @@
 google-generativeai
 pandasai==1.4.10
-streamlit
+numpy=1.21.2
+streamlit=1.36.0
