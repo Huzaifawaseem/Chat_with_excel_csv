@@ -81,7 +81,7 @@ if uploaded_file:
 
     if st.button("Enter"):
         if query:
-            llm = GooglePalm(api_key="AIzaSyCzkOddpqfMmvWXy8SxFQVl55DkEnpOxqM")
+            llm = GooglePalm(api_key=st.secrets["api_key"])
             query_engine = SmartDataframe(
                 df,
                 config={
